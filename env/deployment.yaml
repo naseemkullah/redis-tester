@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-tester
+  labels:
+    app: redis-tester
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis-tester
+  template:
+    metadata:
+      labels:
+        app: redis-tester
+    spec:
+      containers:
+      - name: redis-tester
+        image: gcr.io/boxwood-complex-208616/redis-tester
+        env:
+        - name: REDIS_SENTINEL_HOST
+          value:
+

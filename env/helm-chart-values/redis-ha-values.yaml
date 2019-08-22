@@ -1,0 +1,4 @@
+sentinel:
+  config:
+    down-after-milliseconds: 1000
+    # failover-timeout: 15000

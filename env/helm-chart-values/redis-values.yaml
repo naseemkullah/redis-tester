@@ -1,0 +1,5 @@
+usePassword: false
+sentinel:
+  enabled: true
+  downAfterMilliseconds: 1000
+  # failoverTimeout: 15000
