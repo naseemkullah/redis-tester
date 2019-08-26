@@ -7,7 +7,7 @@ const redisOptions = process.env.REDIS_SENTINEL_HOST ? {
       port: process.env.REDIS_SENTINEL_PORT || 26379,
     },
   ],
-  name: process.env.REDIS_SENTINAL_MASTER || 'mymaster',
+  name: process.env.REDIS_SENTINEL_MASTER || 'mymaster',
 } : {
   host: process.env.REDIS_HOST || 'localhost',
   port: process.env.REDIS_PORT || 6379,
