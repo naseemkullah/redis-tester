@@ -1,6 +1,6 @@
 # Redis-tester
 
-`redis-tester` creates two redis clients, a publisher and subscriber and messages continuouosly publishes to two channels on a 1s interval.
+`redis-tester` creates two redis clients, a publisher that continuouosly publishes to two channels on a 1s interval and a subscriber which subscribes to both those channels.
 
 ## Testing redis-sentinel
 
