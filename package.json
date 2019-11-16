@@ -9,6 +9,6 @@
   "author": "Naseem Ullah",
   "license": "MIT",
   "dependencies": {
-    "ioredis": "^4.14.0"
+    "ioredis": "^4.14.1"
   }
 }
